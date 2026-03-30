@@ -1,3 +1,5 @@
+# Actividad 1: Comentarios en Python
+
 """
 Sitio oficial de Python: https://www.python.org/
 """
@@ -11,11 +13,20 @@ Ejercicio 1:
 6. Imprimir en consola el mensaje "Hola, mi nombre es [nombre completo], y estoy conociendo Python!" utilizando la variable que contiene tu nombre completo.
 '''
 
-# Actividad 1: Comentarios en Python
-
 # Actividad 2: Imprimir mensaje con variable
+saludo1 = "Hola Mundo"
+saludo2 = "Hola Python"
+print(saludo1 + saludo2)
+print(saludo1,saludo2)
+print("Mi saludo es: ", saludo1, saludo2)
+print("Hola ", saludo1 , sep="-")
+print(saludo1,saludo2, sep="\n")
+print(saludo1,saludo2, end=".")
+print("Hola ", saludo1 , sep="-", end=".\n")
+print("Otra forma de imprimir: ", saludo1, saludo2, sep="\n", end=".\n")
 
 # Actividad 3: Variable con nombre completo
+
 
 # Actividad 4: Variables con diferentes tipos de datos
 
