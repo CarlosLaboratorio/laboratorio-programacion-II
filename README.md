@@ -4,7 +4,6 @@ Espacio colaborativo de los alumnos de 3er año de la Técnicatura Superior de D
 ## Reglas para el Alumno/a
 - No modificar carpetas y archivos de otros.
 - No borrar carpetas y archivos de otros.
-- No modificar archivos de otros.
 - No subir todo el proyecto de nuevo.
 - Siempre hacer git pull antes de subir cambios.
 - Subir solo su carpeta.
@@ -36,7 +35,7 @@ laboratorio-programacion-II/
 
 ┌──────────────────────────────────────────────┐
 │                  GitHub                      │
-│        laboratorio-programacion-I            │
+│        laboratorio-programacion-II           │
 │                                              │
 │   ┌──────────────────────────────────────┐   │
 │   │      Proyecto de la materia          │   │
