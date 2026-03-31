@@ -38,7 +38,7 @@ laboratorio-programacion-II/
 │        laboratorio-programacion-II           │
 │                                              │
 │   ┌──────────────────────────────────────┐   │
-│   │      Proyecto de la materia          │   │
+│   │  Proyecto Lógica con Python          │   │
 │   │                                      │   │
 │   │   ┌───────────────┐                  │   │
 │   │   │   alumnos/    │                  │   │
