@@ -14,22 +14,61 @@ Espacio colaborativo de los alumnos de 3er año de la Técnicatura Superior de D
 
 ## Estructura del repo
 ```bash
-            laboratorio-programacion-II/
-            │
-            ├── README.md
-            ├── instrucciones.md
-            │
-            ├── alumnos/
-            │   ├── alumno1/
-            │   │   ├── tp1/
-            │   │   ├── tp2/
-            │   │
-            │   ├── alumno2/
-            │   │   ├── tp1/
-            │   │   ├── tp2/
-            │
-            └── ejemplos/
-                ├── ejemplo1.py
+laboratorio-programacion-II/
+│
+├── README.md
+├── instrucciones.md
+│
+├── alumnos/
+│   ├── alumno1/
+│   │   ├── tp1/
+│   │   ├── tp2/
+│   │
+│   ├── alumno2/
+│   │   ├── tp1/
+│   │   ├── tp2/
+│
+└── ejemplos/
+    ├── ejemplo1.py
+```
+## Arquitectura básica
+```bash
+
+┌──────────────────────────────────────────────┐
+│                  GitHub                      │
+│        laboratorio-programacion-I            │
+│                                              │
+│   ┌──────────────────────────────────────┐   │
+│   │      Proyecto de la materia          │   │
+│   │                                      │   │
+│   │   ┌───────────────┐                  │   │
+│   │   │   alumnos/    │                  │   │
+│   │   │               │                  │   │
+│   │   │ ┌───────────┐ │                  │   │
+│   │   │ │ alumno1/  │ │                  │   │
+│   │   │ │           │ │                  │   │
+│   │   │ │  tp1.py   │ │                  │   │
+│   │   │ │  tp2.py   │ │                  │   │
+│   │   │ └───────────┘ │                  │   │
+│   │   │               │                  │   │
+│   │   │ ┌───────────┐ │                  │   │
+│   │   │ │ alumno2/  │ │                  │   │
+│   │   │ │  tp1.py   │ │                  │   │
+│   │   │ └───────────┘ │                  │   │
+│   │   └───────────────┘                  │   │
+│   │                                      │   │
+│   │   ┌───────────────┐                  │   │
+│   │   │  ejemplos/    │                  │   │
+│   │   │  (material)   │                  │   │
+│   │   └───────────────┘                  │   │
+│   │                                      │   │
+│   │   ┌───────────────┐                  │   │
+│   │   │ instrucciones │                  │   │
+│   │   └───────────────┘                  │   │
+│   │                                      │   │
+│   └──────────────────────────────────────┘   │
+└──────────────────────────────────────────────┘
+
 ```
 ## Pasos del Estudiante
 ### Primera vez
