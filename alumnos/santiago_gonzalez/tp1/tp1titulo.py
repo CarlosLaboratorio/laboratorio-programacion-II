@@ -14,20 +14,10 @@ Ejercicio 1:
 '''
 
 # Actividad 2: Imprimir mensaje con variable
-saludo1 = "Hola Mundo"
-saludo2 = "Hola Python"
-print(saludo1 + saludo2)
-print(saludo1,saludo2)
-print("Mi saludo es: ", saludo1, saludo2)
-print("Hola ", saludo1 , sep="-")
-print(saludo1,saludo2, sep="\n")
-print(saludo1,saludo2, end=".")
-print("Hola ", saludo1 , sep="-", end=".\n")
-print("Otra forma de imprimir: ", saludo1, saludo2, sep="\n", end=".\n")
+
 
 # Actividad 3: Variable con nombre completo
-name = "Carlos Aníbal Aguirre"
-print("Hola ", name)
+
 
 # Actividad 4: Variables con diferentes tipos de datos
 my_string = "Soy de Corrientes"
@@ -44,4 +34,4 @@ print("my_float: ", type(my_float))
 print("my_int: ", type(my_int))
 
 # Actividad 6: Imprimir mensaje con nombre completo
-print(f"Hola, mi nombre es ${name}, y estoy conociendo Python.")
+print(f"Hola, mi nombre es {name}, y estoy conociendo Python.")
