@@ -15,4 +15,4 @@ decimal = 120.5
 
 print(type(texto), type(entero), type(decimal))
 
-print("Hola, mi nombre " + nombre + ", y estoy conociendo Python!")
+print("Hola!, mi nombre " + nombre + ", y estoy conociendo Python!")
