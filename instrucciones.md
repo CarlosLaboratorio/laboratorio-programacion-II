@@ -4,3 +4,4 @@
 - No borrar archivos.
 - Siempre hacer git pull antes de trabajar.
 - Subir solo su carpeta.
+- Esta regla esta mal cambia tu mismo archivo.
