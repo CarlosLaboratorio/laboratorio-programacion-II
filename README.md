@@ -104,4 +104,5 @@ Muy importante
     git push -u origin main
 ```
 
-### Prueba modificando mismo archivo
+## Comandos avanzados git (para Mayo)
+![Comandos git](./img/avanzado-git.gif)

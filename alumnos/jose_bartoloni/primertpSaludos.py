@@ -1,1 +1,0 @@
-print("Hola, soy José Bartoloni y este es mi primer programa en Python")
