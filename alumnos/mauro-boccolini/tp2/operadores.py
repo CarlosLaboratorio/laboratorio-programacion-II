@@ -1,10 +1,14 @@
 a = 115
 b = 10
 
-print("Suma:", a + b)
-print("Resta:", a - b)
-print("Multiplicación:", a * b)
-print("División:", a / b)
+print("Suma: ", a + b)
+print("Resta: ", a - b)
+print("Multiplicacion: ", a * b)
+print("Division: ", a / b)
+print("Division real: ", a // b)
+print("Potencia: ", a**b)
+print("Modulo: ", a % b)
+
 
 # DE COMPARACION
 print("Igual:", a == b)
