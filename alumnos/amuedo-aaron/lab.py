@@ -7,4 +7,6 @@ print("Hola,", nombre, "👋")
 print("Bienvenido a tu primer programa en Python 🚀")
 resultado = numero1 + numero2
 print(nombre ,"El resultado de la suma es:", resultado)
+print("Esta es una prueba para ver si salio todo bien")
+
  
