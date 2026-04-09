@@ -30,7 +30,7 @@ divi = 4 / 2
 
 diviEntera = 10 // 5
 
-mayorA = 4 > 2
+mayorA = 42 > 2
 
 menorA = 2 < 4
 
