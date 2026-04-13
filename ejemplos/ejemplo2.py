@@ -48,8 +48,8 @@ print(f"my_number is my_new_number es {my_number is my_new_number}")
 print(f"my_number is not my_new_number es {my_number is not my_new_number}")
 
 # Operadores de pertenencia
-print(f"'u' in 'mouredev' = {'u' in 'mouredev'}")
-print(f"'b' not in 'mouredev' = {'b' not in 'mouredev'}")
+print(f"'u' in 'aguirre' = {'u' in 'aguirre'}")
+print(f"'b' not in 'aguirre' = {'b' not in 'aguirre'}")
 
 # Operadores de bit
 a = 10  # 1010
@@ -67,14 +67,14 @@ Estructuras de control
 
 # Condicionales
 
-my_string = "Brais"
+my_string = "Aníbal"
 
-if my_string == "MoureDev":
-    print("my_string es 'MoureDev'")
-elif my_string == "Brais":
-    print("my_string es 'Brais'")
+if my_string == "Carlos":
+    print("my_string es 'Carlos'")
+elif my_string == "Aníbal":
+    print("my_string es 'Aníbal'")
 else:
-    print("my_string no es 'MoureDev' ni 'Brais'")
+    print("my_string no es 'Carlos' ni 'Aníbal'")
 
 # Iterativas
 
