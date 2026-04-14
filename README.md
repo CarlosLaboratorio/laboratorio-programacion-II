@@ -95,9 +95,15 @@ Muy importante
 ```bash
     git add .
 ```
+<<<<<<< HEAD
 
 ```bash
     git add readme.md
+=======
+o cambiando archivo invidual
+```bash
+    git add ./ruta/file.py
+>>>>>>> 4e3901a6f98ffb24497d24d81eacd8c650da38a2
 ```
 
 ### Guardar cambios
