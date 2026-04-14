@@ -95,10 +95,6 @@ Muy importante
 ```bash
     git add .
 ```
-o cambiando archivo invidual
-```bash
-    git add ./ruta/file.py
-```
 
 ### Guardar cambios
 ```bash
