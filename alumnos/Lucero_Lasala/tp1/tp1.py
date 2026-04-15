@@ -5,16 +5,16 @@
 # comentario
 """comentario"""
 
-nombre = "lucerito"
-saludito = "holiss"
-miEdad = 19
-miEstatura = 1.59
-lenguaje = "Python"
-soyLinda = True
+nombre = "lucero lasala"
+saludo = "holaa"
+miEdad = 23
+miEstatura = 1.60
+lenguaje = "python"
+programando = True
 
-print(type(saludito))
+print(type(saludo))
 print(type(miEdad))
 print(type(miEstatura))
-print(type(soyLinda))
+print(type(programando))
 print(f"me gusta programar en {lenguaje}")
-print(f"hoisss mi nombre es {nombre} tengo {miEdad} años y mido {miEstatura} metros, y estoy programando en {lenguaje}")
+print(f"{saludo} soy {nombre} tengo {miEdad} años y mido {miEstatura} metros, y estoy programando en {lenguaje}")

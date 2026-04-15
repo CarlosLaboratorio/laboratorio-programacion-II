@@ -95,6 +95,11 @@ Muy importante
 ```bash
     git add .
 ```
+
+```bash
+    git add readme.md
+```
+
 ### Guardar cambios
 ```bash
     git commit -m "Agrego TP1 - Carlos Aguirre"
