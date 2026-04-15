@@ -34,9 +34,9 @@ mayorA = 42 > 2
 
 menorA = 2 < 4
 
-conjuncion = 3 > 2 & 5 > 8
+conjuncion = 3 > 2 and 5 > 8
 
-disyuncion = 3 == 3 | 4 % 2 == 0
+disyuncion = 3 == 3 or 4 % 2 == 0
 
 negacion = not True
 
