@@ -71,7 +71,11 @@ laboratorio-programacion-II/
 ```
 ## Pasos del Estudiante
 ### Primera vez
+<<<<<<< HEAD
 Clonando en vivo simulacion:
+=======
+Clonar repositorio del proyecto:
+>>>>>>> 8e9bce14cd46237cb8803b52a5e93719fc70535b
 ```bash
     git clone https://github.com/CarlosLaboratorio/laboratorio-programacion-II.git
     cd laboratorio-programacion-II
