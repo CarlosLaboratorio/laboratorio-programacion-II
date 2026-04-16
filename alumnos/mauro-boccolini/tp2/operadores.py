@@ -1,7 +1,7 @@
 a = 115
 b = 10
 
-# OPERADORES ARITMETICOS
+print("OPERADORES ARITMETICOS:")
 print("Suma:", a + b)
 print("Resta:", a - b)
 print("Multiplicacion:", a * b)
@@ -9,23 +9,26 @@ print("Division:", a / b)
 print("Division real:", a // b)
 print("Potencia:", a**b)
 print("Modulo:", a % b)
+print("")
 
-# OPERADORES DE COMPARACION
+print("OPERADORES DE COMPARACION:")
 print("Igual:", a == b)
 print("Distinto:", a != b)
 print("Mayor:", a > b)
 print("Menor:", a < b)
 print("Menor o igual que:", a <= b)
 print("Mayor o igual que:", a >= b)
+print("")
 
-# OPERADORES LOGICOS
+print("OPERADORES LOGICOS:")
 x = True
 y = False
 print("AND:", x and y)
 print("OR:", x or y)
 print("NOT:", not x)
+print("")
 
-# OPERADORES DE ASIGNACION
+print("OPERADORES DE ASIGNACION:")
 mi_num = 120
 print(mi_num)
 mi_num += 1
@@ -38,14 +41,16 @@ mi_num /= 2
 print(mi_num)
 mi_num **= 2
 print(mi_num)
+print("")
 
-# OPERADORES DE PERTENENCIA
+print("OPERADORES DE PERTENENCIA:")
 print('b' in 'Boccolini')
 print("a" not in "boccolini")
+print("")
 
-# ESTRUCTURAS DE CONTROL
 
-# CONDICINALES -> IF-ELSE-ELSEIF
+print(f"ESTRUCTURAS DE CONTROL:\n")
+print("CONDICIONALES -> IF-ELIF-ELSE")
 x = 10
 
 if x > 0:
@@ -54,20 +59,20 @@ elif x == 0:
     print("cero")
 else:
     print("negativo")
+print("")
+print("OPERADOR TERNARIO")
+print("Positivo") if x > 0 else print("Negativo")
+print("")
 
-# ITERATIVAS
-# FOR
+print(f"ITERATIVOS:\n")
+print("FOR")
+
 for i in range(5):
     print(i)
 
-# WHILE
+print(f"\nWHILE")
 i = 0
 while i < 5:
     print(i)
     i += 1
-
-# extra
-
-for i in range(10, 56):
-    if i % 2 == 0 and i != 16 and i % 3 != 0:
-        print(i)
+print("")
