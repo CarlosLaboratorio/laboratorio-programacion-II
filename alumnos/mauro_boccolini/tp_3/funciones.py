@@ -24,6 +24,18 @@ res = suma(5, 10)  # se puede alamcenar el resultado en una varible para su post
 print(suma(8, 9))
 print(res)
 
+# FUNCIONES CON PARAMETROS POR DEFECTO
+
+
+def multiplicar(a, b=10):
+    return a*b
+
+
+# Solo le paso un arguemnto, en este caso 'a', ya que tiene un valor por defecto
+std = multiplicar(10)
+print(std)  # 100
+print(multiplicar(2, 5))  # 10
+
 
 # FUNCIONES ANIDADAS
 def suma_exponencial(a, b):
@@ -43,7 +55,6 @@ print(sum(num))  # devuelve la sumatoria de todos los elementos
 inverso = list(reversed(num))
 print(inverso)
 
-
 nombre = "Mauro"
 
 print(len(nombre))
@@ -51,3 +62,19 @@ print(type(nombre))
 
 # Devuele True si el valor pasado como primer argumento es del tipo especifado en el segundo argumento, de lo contrario devuelve False
 print(isinstance(nombre, str))
+
+# VARIABLES LOCALES Y GLOBALES
+
+# variable global
+nombre = "Mauro"  # variable global, puedo acceder desde cualquier parte del archivo
+
+
+def saludo():
+    # variable local, solo puede ser usada dentro de la funcion saludo()
+    apellido = "Boccolini"
+    print(f"Hola {nombre} {apellido}")
+
+
+saludo()
+print(nombre)  # Mauro --> Global
+# print(apellido) NameError: name 'apellido' is not defined
