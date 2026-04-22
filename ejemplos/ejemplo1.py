@@ -20,7 +20,7 @@ print(saludo1 + saludo2)
 print(saludo1,saludo2)
 print("Mi saludo es: ", saludo1, saludo2)
 print("Hola ", saludo1 , sep="-")
-print(saludo1,saludo2, sep="\n")
+print("Aca ",saludo1,saludo2, sep="\n")
 print(saludo1,saludo2, end=".")
 print("Hola ", saludo1 , sep="-", end=".\n")
 print("Otra forma de imprimir: ", saludo1, saludo2, sep="\n", end=".\n")
@@ -45,4 +45,9 @@ print("my_float: ", type(my_float))
 print("my_int: ", type(my_int))
 
 # Actividad 6: Imprimir mensaje con nombre completo
-print(f"Hola, mi nombre es {name}, y estoy conociendo Python y VSC.")
+print(f"Hola, mi nombre es {name}, y estoy conociendo Python y VSC en 2026.")
+
+autoemail="@gmail.com "
+print("1","2","3","4","5","6",sep="-")
+print("carlosanibal815","joseperez","pruebasemail",sep=autoemail,end=autoemail)
+print("\nHello")

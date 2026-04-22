@@ -1,0 +1,34 @@
+        body {
+        background-color: #f5f7fa;
+        }
+
+        header {
+        background-color: #212529;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        }
+
+        .container {
+        margin-top: 30px;
+        }
+
+        .accordion-button {
+        font-weight: bold;
+        }
+
+        .archivo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px;
+        border-bottom: 1px solid #ddd;
+        }
+
+        .archivo span {
+        font-family: monospace;
+        }
+
+        .btn-group button {
+        margin-left: 5px;
+        }
