@@ -91,7 +91,7 @@ while i <= 10:
 try:
     print(10 / 0)
 except:
-    print("Se ha producido un error")
+    print("Se ha producido un error 2026")
 finally:
     print("Ha finalizado el manejo de excepciones")
 
