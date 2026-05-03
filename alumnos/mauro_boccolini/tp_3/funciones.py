@@ -1,3 +1,7 @@
+# variable global
+PI = 3.14159  # variable global, puedo acceder desde cualquier parte del archivo
+
+
 # FUNCION SIN PARAMETROS NI RETORNO
 def saludo():
     print("Hola Mundo!")
@@ -65,16 +69,16 @@ print(isinstance(nombre, str))
 
 # VARIABLES LOCALES Y GLOBALES
 
-# variable global
-nombre = "Mauro"  # variable global, puedo acceder desde cualquier parte del archivo
 
-
-def saludo():
+def suma_pi():
     # variable local, solo puede ser usada dentro de la funcion saludo()
-    apellido = "Boccolini"
-    print(f"Hola {nombre} {apellido}")
+    x = 10
+    print(f"El resultado de la suma de '{x} + {PI}' es: {x+PI} ")
 
 
-saludo()
-print(nombre)  # Mauro --> Global
-# print(apellido) NameError: name 'apellido' is not defined
+suma_pi()
+
+
+# impresion de variable global
+print(PI)  # 3.14159 --> Global
+# print(x) NameError: name 'x' is not defined
