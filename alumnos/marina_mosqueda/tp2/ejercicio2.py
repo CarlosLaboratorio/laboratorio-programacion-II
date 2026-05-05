@@ -59,6 +59,7 @@ elif x == 0:
     print("cero")
 else:
     print("negativo")
+
 print("")
 print("OPERADOR TERNARIO")
 print("Positivo") if x > 0 else print("Negativo")
@@ -76,3 +77,27 @@ while i < 5:
     print(i)
     i += 1
 print("")
+
+
+print("\nEXCEPCIONES:\n")
+print("TRY-EXCEPT-FINALLY")
+
+"""EXCEPCIONES
+Permiten:
+-Evitar que el programa “se rompa” ante errores inesperados.
+-Controlar situaciones problemáticas (como dividir por cero, archivos inexistentes, datos inválidos)."""
+
+try:
+    a = 10
+    b = 0
+    resultado = a / b  # error (división por cero)
+    print("Resultado:", resultado)
+
+except ZeroDivisionError:
+    print("Error: no se puede dividir por cero")
+
+except Exception as e:
+    print("Ocurrió otro error:", e)
+
+finally:
+    print("Fin del bloque try-except")
