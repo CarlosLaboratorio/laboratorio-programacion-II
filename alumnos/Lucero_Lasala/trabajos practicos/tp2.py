@@ -66,13 +66,13 @@ estructuras de control
 """
 
 # condicionales
-my_string = "Lucero"
-if my_string == "Lucero":
-    print("my_string es 'Lucero'")
-elif my_string == "Lasala":
-    print("my_string es 'Lasala'")
+miNombre = "Lucero"
+if miNombre == "Lucero":
+    print("mi nombre es 'Lucero'")
+elif miNombre == "Lasala":
+    print("mi nombre es 'Lasala'")
 else:
-    print("my_string no es 'Lucero' ni 'Lasala'")
+    print("mi nombre no es 'Lucero' ni 'Lasala'")
 
 # iterativas
 for i in range(11):
