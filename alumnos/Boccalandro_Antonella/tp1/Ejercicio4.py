@@ -8,15 +8,10 @@ productos = {
     3: {"nombre": "Auriculares inalámbricos", "categoria": "Audio", "precio": 12000, "stock": 10}
 }
 
-# ----------------------------
-# FUNCIONES
-# ----------------------------
-
 def mostrar_productos():
     print("\n--- LISTADO DE PRODUCTOS ---")
     for id, datos in productos.items():
         print(f"{id} - {datos['nombre']} | {datos['categoria']} | ${datos['precio']} | Stock: {datos['stock']}")
-
 
 def buscar_producto():
     nombre = input("Ingrese nombre del producto: ").lower()
@@ -29,7 +24,6 @@ def buscar_producto():
 
     if not encontrado:
         print("Producto no encontrado")
-
 
 def agregar_producto():
     nuevo_id = max(productos.keys()) + 1
@@ -69,11 +63,6 @@ def eliminar_producto():
     else:
         print("ID inválido")
 
-
-# ----------------------------
-# MENÚ
-# ----------------------------
-
 def menu():
     while True:
         print("\n===== TIENDA DE TECNOLOGÍA =====")
@@ -101,6 +90,5 @@ def menu():
             break
         else:
             print("Opción inválida")
-
 
 menu()
