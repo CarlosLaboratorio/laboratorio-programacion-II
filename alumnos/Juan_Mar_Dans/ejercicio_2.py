@@ -69,6 +69,6 @@ try:
 except ZeroDivisionError:
     print("  Error: No se puede dividir por cero.")
 finally:
-    print("  Finalización del bloque de control.")
+    print("  Finalización del bloque de control")
 
 print("-" * 30)

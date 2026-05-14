@@ -63,7 +63,7 @@ def buscarProducto(nombre):
     encontrado = False
     for id, datos in productos.items():
         if(nombre.lower() in datos["nombre"].lower()):
-            print(f"ID: {id:02d} | {datos["nombre"]} | {datos["categoria"]} | ${datos['precio']} | Stock: {datos['stock']}")
+            print(f"ID: {id:02d} | {datos['nombre']} | {datos['categoria']} | ${datos['precio']} | Stock: {datos['stock']}")
             encontrado = True
 
     if not encontrado:
