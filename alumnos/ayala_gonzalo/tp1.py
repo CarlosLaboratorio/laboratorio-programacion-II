@@ -40,4 +40,33 @@ disyuncion = 3 == 3 or 4 % 2 == 0
 
 negacion = not True
 
+# operadores de asignación
 
+asignacion = 10
+suma = 10
+resta = 10
+div = 10
+mul = 10
+
+suma += 10
+resta -= 5
+div /= 2
+mul *= 10
+
+# operadores de identidad
+
+x = [1,2,3]
+y = [4,5,6]
+z = x
+
+print(x is y)
+print(y is not z)
+print(z is x)
+
+# operadores de pertenencia
+
+arr = [1,2,3,4,5]
+
+print(1 in arr)
+print(6 in arr)
+print(7 not in arr)
