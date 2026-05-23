@@ -4,7 +4,7 @@ from PIL import ImageTk, Image
 ventana = Tk()
 ventana.title("Reparación de PC")
 ventana.geometry("700x450")
-ventana.config(bg='cyan2')
+ventana.config(bg='MediumPurple1')
 ventana.iconbitmap(r'.\ejemplos\ejemploExtra6\imagenes1\picture.ico')
 ventana.imagenes = []
 def bios():
@@ -24,7 +24,7 @@ def pc():
     label1.place(x=125,y=20)
     ventana.imagenes.append(imagen)
     
-Button(ventana,text="Bios Uefi",command=bios).place(x=50,y=20)
-Button(ventana,text="Socket 1200",command=pc).place(x=50,y=60)
+Button(ventana,bg='gray54',text="Bios Uefi",command=bios).place(x=50,y=20)
+Button(ventana,bg='gray54',text="Socket 1200",command=pc).place(x=50,y=60)
 
 ventana.mainloop()

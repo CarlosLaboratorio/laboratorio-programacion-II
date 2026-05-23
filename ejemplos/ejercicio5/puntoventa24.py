@@ -1,6 +1,6 @@
 from tkinter import *
 from tkinter import messagebox
-from tkinter import ttk  # para mejorar el estilo de los widgets
+from tkinter import ttk                 # para mejorar el estilo de los widgets
 from datos import Database
 
 datos = Database('./ejemplos/ejercicio5/ventas.db')
