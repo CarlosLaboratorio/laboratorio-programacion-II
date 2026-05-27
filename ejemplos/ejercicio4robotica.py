@@ -5,7 +5,7 @@
 
 # Base de datos simulada con diccionario
 productos = {
-    1: {"nombre": "Sensor Ultrasonido HC-SR04", "categoria": "Sensores", "precio": 1800, "stock": 25},
+    1: {"nombre": "Sensor Ultrasonido HC-SR04", "categoria": "Sensores", "precio": 1800, "stock": 20},
     2: {"nombre": "Placa Arduino UNO R3", "categoria": "Placas", "precio": 9500, "stock": 12},
     3: {"nombre": "Servo Motor SG90", "categoria": "Motores", "precio": 1200, "stock": 30},
     4: {"nombre": "Módulo Bluetooth HC-05", "categoria": "Módulos", "precio": 2500, "stock": 18},
