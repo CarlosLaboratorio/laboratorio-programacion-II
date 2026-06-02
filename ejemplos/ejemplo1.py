@@ -45,4 +45,4 @@ print("my_float: ", type(my_float))
 print("my_int: ", type(my_int))
 
 # Actividad 6: Imprimir mensaje con nombre completo
-print(f"Hola, mi nombre es {name}, y estoy conociendo Python.")
+print(f"Hola, mi nombre es {name}, y estoy conociendo Python y VSC.")

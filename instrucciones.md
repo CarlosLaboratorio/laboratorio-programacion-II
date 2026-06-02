@@ -4,3 +4,4 @@
 - No borrar archivos.
 - Siempre hacer git pull antes de trabajar.
 - Subir solo su carpeta.
+- No modificar el mismo archivo.

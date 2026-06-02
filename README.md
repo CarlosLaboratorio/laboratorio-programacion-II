@@ -103,3 +103,6 @@ Muy importante
 ```bash
     git push -u origin main
 ```
+
+## Comandos avanzados git (para Mayo)
+![Comandos git](./img/avanzado-git.gif)
