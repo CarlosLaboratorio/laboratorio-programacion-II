@@ -42,4 +42,4 @@ print(type(es_estudiante))
 
 # 6. Usar f-string
 
-print(f"Hola, mi nombre es {Constanza_Sandoval}, y estoy conociendo Python!")
+print(f"Hola, mi nombre es {nombre_completo}, y estoy conociendo Python!") # Dentro de llaves va la variable que quiero mostrar, aquí nombre_completo, no Constanza_Sandoval, que es el nombre de la variable. Corregir.
