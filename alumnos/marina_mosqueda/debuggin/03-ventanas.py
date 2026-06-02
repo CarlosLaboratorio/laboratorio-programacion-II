@@ -5,9 +5,9 @@ root = Tk() #Crear ventana principal
 
 #Métodos básicos
 root.title("Mi aplicación Tkinter")     #Cambia el título de la ventana
-root("800x500+300+200")                #Define tamaño inicial
+root.geometry("800x500+300+200")                #Define tamaño inicial# Aquí falta el método geometry para definir el tamaño inicial de la ventana
 root.resizable(True,True)               #Permite redimensionar
-root.iconbitmap("icono.ico")
+#root.iconbitmap("icono.ico")
 
 #Métodos visuales CONFIGURACIÓN DE LA VENTANA
 root.config (
