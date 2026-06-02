@@ -71,7 +71,7 @@ laboratorio-programacion-II/
 ```
 ## Pasos del Estudiante
 ### Primera vez
-Clonar repositorio:
+Clonar repositorio del proyecto:
 ```bash
     git clone https://github.com/CarlosLaboratorio/laboratorio-programacion-II.git
     cd laboratorio-programacion-II
@@ -95,6 +95,11 @@ Muy importante
 ```bash
     git add .
 ```
+
+```bash
+    git add readme.md
+```
+
 ### Guardar cambios
 ```bash
     git commit -m "Agrego TP1 - Carlos Aguirre"

@@ -30,14 +30,43 @@ divi = 4 / 2
 
 diviEntera = 10 // 5
 
-mayorA = 4 > 2
+mayorA = 42 > 2
 
 menorA = 2 < 4
 
-conjuncion = 3 > 2 & 5 > 8
+conjuncion = 3 > 2 and 5 > 8
 
-disyuncion = 3 == 3 | 4 % 2 == 0
+disyuncion = 3 == 3 or 4 % 2 == 0
 
 negacion = not True
 
+# operadores de asignación
 
+asignacion = 10
+suma = 10
+resta = 10
+div = 10
+mul = 10
+
+suma += 10
+resta -= 5
+div /= 2
+mul *= 10
+
+# operadores de identidad
+
+x = [1,2,3]
+y = [4,5,6]
+z = x
+
+print(x is y)
+print(y is not z)
+print(z is x)
+
+# operadores de pertenencia
+
+arr = [1,2,3,4,5]
+
+print(1 in arr)
+print(6 in arr)
+print(7 not in arr)
