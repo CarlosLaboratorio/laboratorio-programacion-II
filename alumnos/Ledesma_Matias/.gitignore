@@ -1,0 +1,50 @@
+# Entornos virtuales
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Archivos de caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyzw
+
+# Archivos de distribución y compilación
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.spec
+
+# Archivos de base de datos y logs
+*.db
+*.sqlite
+*.log
+
+# Archivos de editor y sistema
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos multimedia (opcional, pero recomendado si no quieres subir MP3)
+*.mp3
+*.wav
+*.ogg
+*.flac
+*.mp4
+*.avi
+
+# Archivos de configuración local (si los usas)
+.env
+config.local.py
+secrets.py
