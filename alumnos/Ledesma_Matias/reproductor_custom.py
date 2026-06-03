@@ -1,3 +1,4 @@
+from PIL import Image
 import customtkinter as ctk
 import pygame
 import tkinter.filedialog as filedialog
@@ -66,11 +67,26 @@ def detener():
 # --- Crear la ventana principal ---
 ventana = ctk.CTk()
 ventana.title("🎧 Reproductor Simple CustomTkinter")
-ventana.geometry("500x350")
+# Aumentamos la altura para que entre la imagen (de 350 a 500)
+ventana.geometry("500x500")
 ventana.resizable(False, False)
 
 frame = ctk.CTkFrame(ventana, corner_radius=15)
 frame.pack(pady=20, padx=20, fill="both", expand=True)
+
+# ------- Agregar imagen de portada (si existe "musica.jpg") -------
+try:
+    img = Image.open("musica.jpg")
+    img_ctk = ctk.CTkImage(light_image=img, dark_image=img, size=(200, 200))
+    label_img = ctk.CTkLabel(frame, image=img_ctk, text="")
+    label_img.image = img_ctk  # <-- guardar referencia para que no se borre
+    label_img.pack(pady=10)
+    print("Imagen cargada correctamente")  # para verificar
+except Exception as e:
+    print(f"Error: {e}")
+    label_sin_img = ctk.CTkLabel(frame, text=f"(sin imagen: {e})", font=("Helvetica", 10))
+    label_sin_img.pack(pady=10)
+# ----------------------------------------------------------------
 
 label_titulo = ctk.CTkLabel(frame, text="Reproductor de Música", font=("Helvetica", 20, "bold"))
 label_titulo.pack(pady=15)
