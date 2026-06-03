@@ -82,4 +82,3 @@ except ZeroDivisionError:
 finally:
     print("Este bloque se ejecuta siempre, haya o no error.")
     
-git config user.name
