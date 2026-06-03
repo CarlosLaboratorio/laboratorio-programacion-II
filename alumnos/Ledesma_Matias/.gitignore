@@ -36,7 +36,7 @@ build/
 Thumbs.db
 desktop.ini
 
-# Archivos multimedia (opcional, pero recomendado si no quieres subir MP3)
+# Archivos multimedia (audio y video)
 *.mp3
 *.wav
 *.ogg
@@ -44,7 +44,15 @@ desktop.ini
 *.mp4
 *.avi
 
-# Archivos de configuración local (si los usas)
+# Imágenes (para no subirlas al repositorio)
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.svg
+
+# Archivos de configuración local
 .env
 config.local.py
 secrets.py
