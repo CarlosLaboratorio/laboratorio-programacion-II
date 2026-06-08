@@ -1,9 +1,4 @@
-# =====================================================
-# Sistema de Gestión de Productos de Robótica
-# Autor: Alumno de 6º Año - Laboratorio de Programación III
-# =====================================================
 
-# Base de datos simulada con diccionario
 productos = {
     1: {"nombre": "Sensor Ultrasonido HC-SR04", "categoria": "Sensores", "precio": 1800, "stock": 20},
     2: {"nombre": "Placa Arduino UNO R3", "categoria": "Placas", "precio": 9500, "stock": 12},
