@@ -156,5 +156,5 @@ for num in range(10, 56):  # 56 para incluir 55
         if num != 16 and num % 3 != 0:  # No es 16 ni múltiplo de 3
             print(num)
     
-    
+
     
