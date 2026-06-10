@@ -93,21 +93,31 @@ print(zapatillasNike.infoProducto())
 #ejer15
 
 
-class AutoDeportivo(Vehiculo): 
+class Vehiculo:
+    def __init__(self, nombre, tipo, material, marca, peso, dimensions, año_fabricado):
+        self.nombre = nombre
+        self.tipo = tipo
+        self.material = material
+        self.marca = marca
+        self.peso = peso
+        self.dimensions = dimensions
+        self.año_fabricado = año_fabricado
+
+
+class AutoDeportivo(Vehiculo):
     def __init__(self, nombre, tipo, material, marca, peso, dimensions, año_fabricado, n_cilindros, tipo_motor, turbo, alerón):
-     
         super().__init__(nombre, tipo, material, marca, peso, dimensions, año_fabricado)
-       
         self.n_cilindros = n_cilindros
         self.tipo_motor = tipo_motor
         self.turbo = turbo
         self.alerón = alerón
-
-    
+        
     def __str__(self):
         return f"Deportivo {self.nombre} ({self.marca}) - {self.n_cilindros} cilindros, Motor: {self.tipo_motor}"
 
 
+
+   
 
 
 
