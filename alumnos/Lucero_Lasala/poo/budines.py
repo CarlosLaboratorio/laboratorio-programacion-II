@@ -1,6 +1,6 @@
 class Budin:
 
-    def __init__(self, sabor, tamano, precio, relleno):
+    def __init__(self, sabor, tamano, relleno, precio):
         self.sabor = sabor
         self.tamano = tamano
         self.relleno = relleno
