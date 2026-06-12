@@ -5,10 +5,10 @@ class Cancion:
     duracion = "3:45"
     calificacion = "9.5"
     
-cancion1 = Cancion()
+cancionfavorita1 = Cancion()
 
-print(cancion1.nombre)
-print(cancion1.banda)
-print(cancion1.genero)
-print(cancion1.duracion)
-print(cancion1.calificacion)
+print(cancionfavorita1.nombre)
+print(cancionfavorita1.banda)
+print(cancionfavorita1.genero)
+print(cancionfavorita1.duracion)
+print(cancionfavorita1.calificacion)

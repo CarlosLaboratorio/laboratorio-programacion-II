@@ -17,7 +17,7 @@ Precio: ${self.precio}
         if self.relleno == "Sin relleno":
             return "Este budín no tiene relleno u_u"
         else:
-            return f"Este budin tiene relleno de {self.relleno}, delicioso :3"
+            return f"Este budín tiene relleno de {self.relleno}, delicioso :3"
         
 budin1 = Budin("Marmolado", "Grande", "Dulce de leche", 3500)
 budin2 = Budin("Banana", "Mediano", "Chips de chocolate", 2700)
@@ -26,9 +26,12 @@ budin4 = Budin("Naranja", "Grande", "Chips de chocolate blanco", 3800)
 
 print(budin1.mostrar_info())
 print(budin1.tiene_relleno())
+
 print(budin2.mostrar_info())
 print(budin2.tiene_relleno())
+
 print(budin3.mostrar_info())
 print(budin3.tiene_relleno())
+
 print(budin4.mostrar_info())
 print(budin4.tiene_relleno())

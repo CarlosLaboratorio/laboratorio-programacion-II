@@ -15,9 +15,11 @@ vozsecundaria2 = Cantante ("Lola", 13, "Soprano")
 print(vozprincipal1.nombre)
 print(vozprincipal1.rango_vocal)
 print(vozprincipal1.presentarse())
+
 print(vozsecundaria1.nombre)
 print(vozsecundaria1.rango_vocal)
 print(vozsecundaria1.presentarse())
+
 print(vozsecundaria2.nombre)
 print(vozsecundaria2.rango_vocal)
 print(vozsecundaria2.presentarse()) 
